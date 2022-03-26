@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Imagen logo */
+.image-mama img {
+    width: 100%;
+    height: 600px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:medium;
+}
+
+
+h3 {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:medium;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Logo */
+.logo {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Navbar */
+.navbar-main {
+    display: flex;
+    justify-content:space-around;
+    background-color:antiquewhite;
+    margin-top: 2px;
+}
+
+
+/* Cuadro inicio sesión */
+
+html,body { 
+	height: 100%; 
+}
+
+.global-container{
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f5f5f5;
+}
+
+form{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.card-title{ font-weight:300; }
+
+.btn{
+	font-size: 14px;
+	margin-top:20px;
+}
+
+
+.login-form{ 
+	width:330px;
+	margin:20px;
+}
+
+.sign-up{
+	text-align:center;
+	padding:20px 0 0;
+}
+
+.alert{
+	margin-bottom:-30px;
+	font-size: 13px;
+	margin-top:20px;
+}
+
+.container-carrousel {
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+/* Margenes Contacto */
+.mb-4 {
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+/* Seccion de pago con tarjetas */
+.credit-card-div  span { padding-top:10px; }
+.credit-card-div img { padding-top:30px; }
+.credit-card-div .small-font { font-size:9px; }
+.credit-card-div .pad-adjust { padding-top:10px; }
+
+.credit-card-div {
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-bottom: 30px;
+}
+
+/* Tarjetas */
+.container-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.container-tarjetas {
+    display: flex;
+    justify-content:space-around;
+}
+
+
+/* Logo de whatpsapp seguir en resto de pagina */
+/* Boton redirigir a contacto de whatsapp */
+.btn-whatsapp {
+    display:block;
+    width:40px;
+    height:40px;
+    color:#fff;
+    position: fixed;
+    right:50px;
+    bottom:130px;
+    border-radius:50%;
+    line-height:180px;
+    text-align:center;
+    z-index:999;
+}
+
+.btn-whatsapp img {
+    width: 60px;
+    height: 60px;
+    opacity: 80%;
+}
+
+/* Transformacion Logo Whatsapp */
+.btn-whatsapp img:hover {
+    transition: all 2s;
+    transform: scale(1.5);
+}
+
+/* Maps */
+.video {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+/* Transformacion  imagenes */
+.border-bottom img:hover {
+    transition: all 2s;
+    transform: scale(1.5);
+}
+
+.image-hover:hover {
+    transition: all 2s;
+    transform: scale(1.5);
+}
+
+/* Medidas Publicidad dos */
+
+.publicidad-dos {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;  
+}
+
+.justify-content-around {
+    background-color:antiquewhite;
+}
+
+.border-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+/* Contacto */
+.contactanos {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+
+/* Imagenes RSS - Transiciones */
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+	padding: 10px;
+	background-color:antiquewhite;
+}
+
+.redes-sociales img {
+	padding: 5px;
+	border-radius: 100%;
+	width: 50px;
+	transition: .3s ease all;
+}
+
+.redes-sociales img:hover {
+	transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+/* Seccion Contacto / Formulario */
+body{
+
+	font-family: 'Asap', sans-serif;
+	font-size: 14px;
+}
+label, input[type="submit"]{
+	margin-top: 6px;
+}
+.btn:focus{
+	outline: none;
+}
+.ibody{
+	background-color: #ecf0f3;
+	border: 1px solid #bfd8eb;
+	border-radius: 8px;
+	margin: 30px auto;
+	width: 500px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+.jumbotron{
+	background-color: #bfd8eb;
+	border-radius: 8px 8px 0px 0px;
+	margin-bottom: 0px;
+	padding: 16px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+}
+.jumbotron h1{
+	color: #77a5c7;
+	font-size: 36px;
+	text-align: center;
+	text-shadow: 0px 1px #fff;
+}
+.fcontacto{
+	padding: 14px;
+}
+.logito{
+	margin-bottom: 6px;
+	text-align: center;
+}
